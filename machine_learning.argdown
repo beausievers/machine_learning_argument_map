@@ -20,7 +20,6 @@ webComponent:
 
 todo:
 
-    - distinguish between "debiasing" and research into algorithmic fairness
     - a "behavioral control" box and a "concentration of power" box instead of just "shaping humans to fit machines."
     - the positive/left-accelerationist side of economic disruption, a la inventing the future
     - include lake's work in the generalization section
@@ -72,7 +71,6 @@ Arguments about whether machine learning constitutes a major technological advan
     + <Human augmentation>: Machine learning systems can support and augment human [intelligence](https://distill.pub/2017/aia/) and [creativity](http://computationalcreativity.net/iccc2014/wp-content/uploads/2013/09/ComputationalCreativity.pdf). #pro
     - <Exaggerated results>
         - <Impressive breakthroughs>
-    - <Energy inefficient>
     _ <Ambivalence toward technology>: Technological "advancement" or ["progress"](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1292&context=tnas) is [not necessarily good](https://lib.anarhija.net/library/jacques-ellul-the-technological-society.pdf). #ambiv
 
 Arguments about whether machine learning constitutes a serious risk.    
@@ -83,6 +81,7 @@ Arguments about whether machine learning constitutes a serious risk.
         + <False objectivity>: The use of machine learning systems can create [a false sense of objectivity](https://link.springer.com/article/10.1007/s13347-017-0273-3) by [obscuring](https://arxiv.org/abs/2002.05193) or [inappropriately bracketing](https://dl.acm.org/doi/abs/10.1145/3351095.3372840) their limitations. #con
         - <De-biasing>: Machine learning systems can be [audited for bias](https://arxiv.org/abs/1810.01943) or [modified to reduce bias](https://papers.nips.cc/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html). #pro
             - <De-biasing doesn't work>: Model [de-biasing doesn't fully eliminate biases](https://arxiv.org/abs/1903.03862). #con
+            - <False objectivity>
         - <Algorithmic fairness>
     + <False objectivity>
     + <Black box>: People enjoy a [right to explanation of decisions that affect them](https://arxiv.org/abs/1606.08813), but it is [difficult to understand why machine learning systems make any given decision](https://arxiv.org/abs/1702.08608). #con
@@ -92,10 +91,18 @@ Arguments about whether machine learning constitutes a serious risk.
     _ <Precautionary principle>: The risks posed by machine learning systems can be mitigated by following [the precautionary principle](https://ehp.niehs.nih.gov/doi/abs/10.1289/ehp.01109871). #ambiv
         _ <Costs of precaution>: The precautionary princple [limits innovation and economic growth](https://itif.org/publications/2019/02/04/ten-ways-precautionary-principle-undermines-progress-artificial-intelligence) #pro
     + <Surveillance state>: Machine learning systems facilitate the overreach and abuse of [government](https://www.nature.com/articles/d41586-020-03187-3) and [corporate](https://link.springer.com/article/10.1057/jit.2015.5) surveillance. #con
-    + <Shaping humans to fit machines>: Owners of machine learning systems will [incentivize and coerce](https://journals.sagepub.com/doi/abs/10.1177/1527476418796632) people to shape their behavior to fit the constraints of machine learning systems. #con
-        + <Lack of consent>: Human-generated training data are often [collected and used without consent](https://journals.sagepub.com/doi/full/10.1177/2053951716650211). #con
+        + <Concentration of power>
+        + <Behavioral control>
+    + <Behavioral control>: Owners of machine learning systems will [incentivize and coerce](https://journals.sagepub.com/doi/abs/10.1177/1527476418796632) people to shape their behavior to provide data for and fit the constraints of machine learning systems. #con
         + <Dependence on human labor>
+    + <Concentration of power>: The expense of machine learning [concentrates power in large, wealthy organizations](https://arxiv.org/abs/2010.15581). #con
+        + <Behavioral control>
+        + <Energy inefficient>
         + <Data hungry>
+    + <Lack of consent>: Human-generated training data are often [collected and used without consent](https://journals.sagepub.com/doi/full/10.1177/2053951716650211). #con
+        + <Data hungry>
+        + <Behavioral control>
+        + <Dependence on human labor>
     + <Economic disruption>: [People could be pushed out of their jobs by machine learning systems](https://www.sciencedirect.com/science/article/pii/S0040162516302244) causing [increasing in inequaltiy](https://www.aeaweb.org/articles?id=10.1257/pandp.20201063). #con
         + <Labor-saving automation>
         - <Job creation>: Historically, [automation has resulted in job creation](https://www.aeaweb.org/articles?id=10.1257%2Fjep.29.3.3) that offsets job loss. #pro
