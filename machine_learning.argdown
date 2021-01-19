@@ -16,6 +16,26 @@ webComponent:
     height: 35em
 ===
 
+/*
+
+todo:
+
+    - distinguish between "debiasing" and research into algorithmic fairness
+    - a "behavioral control" box and a "concentration of power" box instead of just "shaping humans to fit machines."
+    - the positive/left-accelerationist side of economic disruption, a la inventing the future
+    - include lake's work in the generalization section
+    - merge "superhuman performance" and "impressive results"
+    - add a technical/theoretical version of "false objectivity" to accommodate marcus/fodor type objections
+
+    - improve color scheme. colorblind safe, better for white background
+    - text describing the color meanings
+
+    - better text flow describing each argument
+    
+    - more traditional bibliography?
+
+*/
+
 The core question of machine learning is whether the benefits outweigh the risks. 
 
 [Benefits outweigh risks]: The benefits of machine learning outweigh the risks.
@@ -46,6 +66,9 @@ Arguments about whether machine learning constitutes a major technological advan
     + <Bias quantification>: Machine learning systems can [reveal](https://science.sciencemag.org/content/356/6334/183.abstract) and [quantify](https://www.pnas.org/content/115/16/E3635.short) human biases. #pro
         + <Humans are biased>
         + <Cognitive modeling>
+    + <Algorithmic fairness>: Algorithms can be designed to make [fair](https://dl.acm.org/doi/abs/10.1145/3097983.3098095) and [equitable](https://papers.nips.cc/paper/2017/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html) decisions.
+        + <Bias quantification>
+        - <False objectivity>
     + <Human augmentation>: Machine learning systems can support and augment human [intelligence](https://distill.pub/2017/aia/) and [creativity](http://computationalcreativity.net/iccc2014/wp-content/uploads/2013/09/ComputationalCreativity.pdf). #pro
     - <Exaggerated results>
         - <Impressive breakthroughs>
@@ -60,7 +83,7 @@ Arguments about whether machine learning constitutes a serious risk.
         + <False objectivity>: The use of machine learning systems can create [a false sense of objectivity](https://link.springer.com/article/10.1007/s13347-017-0273-3) by [obscuring](https://arxiv.org/abs/2002.05193) or [inappropriately bracketing](https://dl.acm.org/doi/abs/10.1145/3351095.3372840) their limitations. #con
         - <De-biasing>: Machine learning systems can be [audited for bias](https://arxiv.org/abs/1810.01943) or [modified to reduce bias](https://papers.nips.cc/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html). #pro
             - <De-biasing doesn't work>: Model [de-biasing doesn't fully eliminate biases](https://arxiv.org/abs/1903.03862). #con
-        - <Bias quantification>
+        - <Algorithmic fairness>
     + <False objectivity>
     + <Black box>: People enjoy a [right to explanation of decisions that affect them](https://arxiv.org/abs/1606.08813), but it is [difficult to understand why machine learning systems make any given decision](https://arxiv.org/abs/1702.08608). #con
         _ <Human reasoning is also a black box>: It is also difficult to understand [why humans make any given decision](https://www.annualreviews.org/doi/full/10.1146/annurev.neuro.29.051605.113038). #ambiv
