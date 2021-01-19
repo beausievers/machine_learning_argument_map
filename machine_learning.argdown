@@ -21,7 +21,7 @@ webComponent:
 todo:
     - the positive/left-accelerationist side of economic disruption, a la inventing the future
     - include lake's work in the generalization section
-    - merge "superhuman performance" and "impressive results"
+    - change "superhuman performance" to "human-like performance"
     - add a technical/theoretical version of "false objectivity" to accommodate marcus/fodor type objections
 
     - improve color scheme. colorblind safe, better for white background
@@ -42,9 +42,8 @@ The core question of machine learning is whether the benefits outweigh the risks
 Arguments about whether machine learning constitutes a major technological advance.
 
 <Technological advance>: Machine learning systems constitute a technological advance sufficient to outweigh the associated risks. #pro
-    + <Impressive breakthroughs>: Machine learning systems outperform humans at [complex games like go](https://science.sciencemag.org/content/362/6419/1140/) and difficult tasks like [protein folding](https://www.nature.com/articles/s41586-019-1923-7). #pro
+    + <Impressive breakthroughs>: Machine learning systems outperform humans at [complex games like go](https://science.sciencemag.org/content/362/6419/1140/), difficult tasks like [protein folding](https://www.nature.com/articles/s41586-019-1923-7), and [more](https://www.pnas.org/content/117/48/30033). #pro
         - <Exaggerated results>: The performance of machine learning systems is exaggerated due to perverse incentives such as [publication bias](https://en.wikipedia.org/wiki/Publication_bias). #con
-    + <Superhuman performance>: Machine learning systems [perform as well or better than humans](https://www.pnas.org/content/117/48/30033) on a wide range of tasks. #pro
         - <Data hungry>: Machine learning systems are sample-inefficient, requiring [extremely large training datasets](https://ieeexplore.ieee.org/abstract/document/4804817) in order to match human performance. #con
         - <Adversarial examples>: Machine learning systems are [easily fooled](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Nguyen_Deep_Neural_Networks_2015_CVPR_paper.html) by [adversarial examples](https://arxiv.org/abs/1312.6199) that do not fool humans. #con
         + <Good generalization>: Machine learning systems have [good generalization performance](https://arxiv.org/abs/1710.05468). #pro
