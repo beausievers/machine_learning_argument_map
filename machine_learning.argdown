@@ -19,8 +19,6 @@ webComponent:
 /*
 
 todo:
-
-    - a "behavioral control" box and a "concentration of power" box instead of just "shaping humans to fit machines."
     - the positive/left-accelerationist side of economic disruption, a la inventing the future
     - include lake's work in the generalization section
     - merge "superhuman performance" and "impressive results"
@@ -79,6 +77,7 @@ Arguments about whether machine learning constitutes a serious risk.
     + <Bias reproduction>: Machine learning systems can [reproduce and perpetuate harmful human biases](https://weaponsofmathdestructionbook.com/). #con
         + <Humans are biased>: [Human decision-making is biased](https://science.sciencemag.org/content/185/4157/1124.abstract) and [predjudice against minoritized people is pervasive](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-071811-145508). #ambiv
         + <False objectivity>: The use of machine learning systems can create [a false sense of objectivity](https://link.springer.com/article/10.1007/s13347-017-0273-3) by [obscuring](https://arxiv.org/abs/2002.05193) or [inappropriately bracketing](https://dl.acm.org/doi/abs/10.1145/3351095.3372840) their limitations. #con
+        + <Minority exclusion>
         - <De-biasing>: Machine learning systems can be [audited for bias](https://arxiv.org/abs/1810.01943) or [modified to reduce bias](https://papers.nips.cc/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html). #pro
             - <De-biasing doesn't work>: Model [de-biasing doesn't fully eliminate biases](https://arxiv.org/abs/1903.03862). #con
             - <False objectivity>
@@ -103,6 +102,10 @@ Arguments about whether machine learning constitutes a serious risk.
         + <Data hungry>
         + <Behavioral control>
         + <Dependence on human labor>
+    + <Minority exclusion>: Cultural contexts that are smaller are more difficult to mine for training data, resulting in [exclusion from machine learning systems](https://arxiv.org/abs/2003.11529). #con
+        + <False objectivity>
+        + <Data hungry>
+        _ <Ambivalence of minority representation>: [Minority representation can support discrimination](https://digitaltalkingdrum.com/2017/08/15/against-black-inclusion-in-facial-recognition/), and is therefore not always desirable. #ambiv
     + <Economic disruption>: [People could be pushed out of their jobs by machine learning systems](https://www.sciencedirect.com/science/article/pii/S0040162516302244) causing [increasing in inequaltiy](https://www.aeaweb.org/articles?id=10.1257/pandp.20201063). #con
         + <Labor-saving automation>
         - <Job creation>: Historically, [automation has resulted in job creation](https://www.aeaweb.org/articles?id=10.1257%2Fjep.29.3.3) that offsets job loss. #pro
