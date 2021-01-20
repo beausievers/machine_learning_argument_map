@@ -24,6 +24,9 @@ webComponent:
 
 todo:
     - add a technical/theoretical version of "false objectivity" to accommodate marcus/fodor type objections
+    - add "regulation"
+    - add "antitrust"
+    - add a box for astroturfing/deepfake risk?
 
     - better text flow describing each argument
     
@@ -31,9 +34,13 @@ todo:
 
 */
 
-The core question of machine learning is whether the benefits outweigh the risks.
+**This document maps arguments for and against machine learning.** I assume that machine learning systems constitute a major technological advance, but that the benefits ought to be weighed against a number of serious risks.
 
-Green boxes represent "pro" positions (for machine learning) while red boxes represent "con" positions (against machine learning). Blue arrows indicate support, red arrows indicate attack, and purple arrows indicate undermining.
+**Above, the arguments and connections between them are mapped.** Clicking on the map activates zoom and pan controls. To zoom the map, use the mouse-wheel or a two-finger scrolling gesture. To pan the map, click and drag the mouse. Green boxes represent "pro" arguments (for machine learning), while red boxes represent "con" arguments (against machine learning), and grey boxes represent arguments that are ambivalent. Blue arrows indicate support, red arrows indicate attack, and purple arrows indicate undermining.
+
+**Below, each argument is explicated by a short text with links to supporting documentation.** Links were selected to offer a useful starting point for exploring each argument. But because the literature on many of the arguments is vast, no attempt has been made to be comprehensive. 
+
+The source code for this project is [available on GitHub](https://github.com/beausievers/machine_learning_argument_map). The map was constructed using [Argdown](https://argdown.org/).
 
 [Benefits outweigh risks]: The benefits of machine learning outweigh the risks.
     + <Technological advance>: Machine learning constitutes a major technological advance. #pro
@@ -115,3 +122,5 @@ Arguments about whether machine learning constitutes a serious risk.
     + <Superintelligence is an existential threat>: A sufficiently intelligent machine may [destroy humanity](http://jetpress.org/volume9/risks.html) #con
         - <Safety research>: [Safety risks posed by intelligent machines](https://arxiv.org/abs/1606.06565) are an active research area. #pro
         - <Implausibility of superintelligence>: "Superintelligence" is [implausible](http://kryten.mm.rpi.edu/SB_singularity_math_final.pdf) or [not a threat](https://jetpress.org/v25.2/goertzel.pdf). #ambiv
+
+**Acknowledgements.** Thanks to Ted Underwood, Kevin Lin, Chris Beiser, and Juan Ortiz Freuler for helpful feedback.
