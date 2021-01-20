@@ -27,6 +27,7 @@ insert_at = html.find(target) + len(target)
 viz = (
     """
 <style>
+.argdown {font-size: 1.2em}
 .argdown-figure {margin: auto !important;}
 </style>
 """
