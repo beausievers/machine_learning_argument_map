@@ -4,11 +4,15 @@ title: >
 author: Beau Sievers
 date: 2021-01-18
 color:
-    colorScheme: colorbrewer-category9
+    colorScheme: colorbrewer-set2
     tagColors:
         pro: 0
         con: 1
         ambiv: 7
+    relationColors:
+        support: "#00aaff"
+        attack: "#cc2233"
+        undercut: "#aa11aa"
 model:
     removeTagsFromText: true
 webComponent:
@@ -19,12 +23,8 @@ webComponent:
 /*
 
 todo:
-    - the positive/left-accelerationist side of economic disruption, a la inventing the future
-    - include lake's work in the generalization section
-    - change "superhuman performance" to "human-like performance"
     - add a technical/theoretical version of "false objectivity" to accommodate marcus/fodor type objections
 
-    - improve color scheme. colorblind safe, better for white background
     - text describing the color meanings
 
     - better text flow describing each argument
