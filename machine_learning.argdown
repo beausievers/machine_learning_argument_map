@@ -25,15 +25,15 @@ webComponent:
 todo:
     - add a technical/theoretical version of "false objectivity" to accommodate marcus/fodor type objections
 
-    - text describing the color meanings
-
     - better text flow describing each argument
     
     - more traditional bibliography?
 
 */
 
-The core question of machine learning is whether the benefits outweigh the risks. 
+The core question of machine learning is whether the benefits outweigh the risks.
+
+Green boxes represent "pro" positions (for machine learning) while red boxes represent "con" positions (against machine learning). Blue arrows indicate support, red arrows indicate attack, and purple arrows indicate undermining.
 
 [Benefits outweigh risks]: The benefits of machine learning outweigh the risks.
     + <Technological advance>: Machine learning constitutes a major technological advance. #pro
