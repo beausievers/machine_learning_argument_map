@@ -24,6 +24,7 @@ webComponent:
 
 todo:
     - add a technical/theoretical version of "false objectivity" to accommodate marcus/fodor type objections
+    - add propaganda/astroturfing concerns to "behavioral control"
     - add "regulation"
     - add "antitrust"
     - add a box for astroturfing/deepfake risk?
@@ -46,81 +47,126 @@ The source code for this project is [available on GitHub](https://github.com/bea
     + <Technological advance>: Machine learning constitutes a major technological advance. #pro
     - <Serious risks>: Machine learning systems pose serious risks. #con
 
-Arguments about whether machine learning constitutes a major technological advance.
+**Next, we consider arguments that machine learning constitutes a major technological advance.**
 
-<Technological advance>: Machine learning systems constitute a technological advance sufficient to outweigh the associated risks. #pro
-    + <Impressive breakthroughs>: Machine learning systems outperform humans at [complex games like go](https://science.sciencemag.org/content/362/6419/1140/), difficult tasks like [protein folding](https://www.nature.com/articles/s41586-019-1923-7), and [more](https://www.pnas.org/content/117/48/30033). #pro
-        - <Exaggerated results>: The performance of machine learning systems is exaggerated due to perverse incentives such as [publication bias](https://en.wikipedia.org/wiki/Publication_bias). #con
-        - <Data hungry>: Machine learning systems are sample-inefficient, requiring [extremely large training datasets](https://ieeexplore.ieee.org/abstract/document/4804817) in order to match human performance. #con
-        - <Adversarial examples>: Machine learning systems are [easily fooled](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Nguyen_Deep_Neural_Networks_2015_CVPR_paper.html) by [adversarial examples](https://arxiv.org/abs/1312.6199) that do not fool humans. #con
-        + <Good generalization>: Machine learning systems have [good generalization performance](https://arxiv.org/abs/1710.05468). #pro
-            - <Poor generalization>
-        - <Poor generalization>: Machine learning systems have trouble dealing with [input that is unlike the training data](https://www.sciencedirect.com/science/article/abs/pii/S0031320311002901). #con
-            - <Good generalization>
-        - <Difficult tasks>: Machine learning systems [perform poorly on tasks that are relatively easy for humans](https://arxiv.org/ftp/arxiv/papers/1801/1801.00631.pdf), like reasoning and understanding causality. #con
+The main argument in favor of machine learning is that it supports **moral ends,** such as advancing scientific and technological progress, creating a more just society, saving labor, or enriching lived experience.
+
+<Technological advance>: Machine learning systems constitute a technological advance sufficient to outweigh the associated risks. Machine learning systems outperform humans at [complex games like go](https://science.sciencemag.org/content/362/6419/1140/), difficult tasks like [protein folding](https://www.nature.com/articles/s41586-019-1923-7), and [more](https://www.pnas.org/content/117/48/30033). #pro
     + <Universal approximator>: Deep neural networks can [approximate any function](https://www.sciencedirect.com/science/article/abs/pii/089360809190009T). #pro
-        _ <Difficult tasks>
     + <Cognitive modeling>: Machine learning systems are useful for [modeling human perception and cognition](https://www.annualreviews.org/doi/abs/10.1146/annurev-vision-082114-035447). #pro
-        - <Difficult tasks>
-        - <Adversarial examples>
-        - <Data hungry>
-    + <Labor-saving automation>: Machine learning systems [can automate human labor](https://www.jair.org/index.php/jair/article/view/11222). #pro
-        _ <Job creation>
     + <Bias quantification>: Machine learning systems can [reveal](https://science.sciencemag.org/content/356/6334/183.abstract) and [quantify](https://www.pnas.org/content/115/16/E3635.short) human biases. #pro
         + <Humans are biased>
         + <Cognitive modeling>
     + <Algorithmic fairness>: Algorithms can be designed to make [fair](https://dl.acm.org/doi/abs/10.1145/3097983.3098095) and [equitable](https://papers.nips.cc/paper/2017/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html) decisions.
         + <Bias quantification>
         - <False objectivity>
+    + <Labor-saving automation>: Machine learning systems [can automate human labor](https://www.jair.org/index.php/jair/article/view/11222). #pro
+        _ <Job creation>
     + <Human augmentation>: Machine learning systems can support and augment human [intelligence](https://distill.pub/2017/aia/) and [creativity](http://computationalcreativity.net/iccc2014/wp-content/uploads/2013/09/ComputationalCreativity.pdf). #pro
-    - <Exaggerated results>
-        - <Impressive breakthroughs>
+
+However, these **purported breakthroughs might not be impressive as they seem.** From a social perspective, perverse incentives might lead us to doubt the veracity of claims made by advocates of machine learning. From a technical perspective, the use of machine learning systems clearly has substantial drawbacks. Such systems require massive amounts of data, and are often brittle and fail to generalize. From a theoretical perspective, machine learning systems have trouble with tasks that are relatively easy for humans, casting doubt on claims for their superiority.
+
+<Technological advance>
+    - <Exaggerated results>: The performance of machine learning systems is exaggerated due to perverse incentives such as [publication bias](https://en.wikipedia.org/wiki/Publication_bias). #con
+        - <Technological advance>
+    - <Data hungry>: Machine learning systems are sample-inefficient, requiring [extremely large training datasets](https://ieeexplore.ieee.org/abstract/document/4804817) in order to match human performance. #con
+        -> <Cognitive modeling>
+    - <Poor generalization>: Machine learning systems have trouble dealing with [input that is unlike the training data](https://www.sciencedirect.com/science/article/abs/pii/S0031320311002901). #con
+        - <Good generalization>: Machine learning systems have [good generalization performance](https://arxiv.org/abs/1710.05468). #pro
+            - <Poor generalization>
+            +> <Cognitive modeling>
+        -> <Cognitive modeling>
+    - <Adversarial examples>: Machine learning systems are [easily fooled](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Nguyen_Deep_Neural_Networks_2015_CVPR_paper.html) by [adversarial examples](https://arxiv.org/abs/1312.6199) that do not fool humans. #con
+        -> <Cognitive modeling>
+    - <Difficult tasks>: Machine learning systems [perform poorly on tasks that are relatively easy for humans](https://arxiv.org/ftp/arxiv/papers/1801/1801.00631.pdf), like reasoning and understanding causality. #con
+        _> <Universal approximator>
+        -> <Cognitive modeling>
+
+Finally, claims in favor of machine learning may be undermined by arguments that **technological advancement is morally ambivalent** or undesirable, or that the the very concepts of technological "progress" or "advancement" are incoherent.
+
+<Technological advance>
     _ <Ambivalence toward technology>: Technological "advancement" or ["progress"](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1292&context=tnas) is [not necessarily good](https://lib.anarhija.net/library/jacques-ellul-the-technological-society.pdf). #ambiv
 
-Arguments about whether machine learning constitutes a serious risk.    
+**Below, we consider arguments that machine learning constitutes a serious risk.**
+
+The benefits of machine learning must be balanced against a range of serious risks. Because machine learning poses many risks, we address these arguments in groups, roughly organized by conceptual similarity.
+
+First, machine learning systems can support **immoral ends** just as effectively as moral ones. For example, accurate face recognition technology supports the expansion of the surveillance state. The effectiveness of machine could therefore lead to a concentration of power in the hands of those who can afford to use it, risking the erosion of personal freedom and civil liberties. 
 
 <Serious risks>: The risks posed by machine learning systems do not outweigh the benefits.
+    + <Surveillance state>: Machine learning systems facilitate the overreach and abuse of [government](https://www.nature.com/articles/d41586-020-03187-3) and [corporate](https://link.springer.com/article/10.1057/jit.2015.5) surveillance. #con
+        + <Concentration of power>
+        + <Behavioral control>
+    + <Behavioral control>: Owners of machine learning systems will [incentivize and coerce](https://journals.sagepub.com/doi/abs/10.1177/1527476418796632) people to shape their behavior to provide data for and fit the constraints of machine learning systems. Further, machine learning systems can be used to cheaply produce [propaganda at scale](https://arxiv.org/abs/2009.06807). #con
+        + <Dependence on human labor>
+        + <Surveillance state>
+    + <Concentration of power>: The expense of machine learning [concentrates power in large, wealthy organizations](https://arxiv.org/abs/2010.15581). #con
+        + <Behavioral control>
+    + <Lack of consent>: Human-generated training data are often [collected and used without consent](https://journals.sagepub.com/doi/full/10.1177/2053951716650211). #con
+        + <Behavioral control>
+        + <Dependence on human labor>
+
+Machine learning systems can exacerbate **injustices and social inequalities.** Because machine learning systems are sensitive to both explicit and implicit biases, they can easily reproduce and exacerbate those biases when deployed in consumer products or institutional decision-making tools. Although techniques for mitigating bias are an active research area, these techniques are not necessarily effective. Minoritized people who are already subject to human biases stand to be harmed the most when these biases are reproduced by machine learning systems. Further, because machine learning systems require large amounts of training data, minority communities often cannot reap the benefits of machine learning systems even as they are subject to their harms.
+
+<Serious risks>
     + <Bias reproduction>: Machine learning systems can [reproduce and perpetuate harmful human biases](https://weaponsofmathdestructionbook.com/). #con
         + <Humans are biased>: [Human decision-making is biased](https://science.sciencemag.org/content/185/4157/1124.abstract) and [predjudice against minoritized people is pervasive](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-071811-145508). #ambiv
-        + <False objectivity>: The use of machine learning systems can create [a false sense of objectivity](https://link.springer.com/article/10.1007/s13347-017-0273-3) by [obscuring](https://arxiv.org/abs/2002.05193) or [inappropriately bracketing](https://dl.acm.org/doi/abs/10.1145/3351095.3372840) their limitations. #con
         + <Minority exclusion>
         - <De-biasing>: Machine learning systems can be [audited for bias](https://arxiv.org/abs/1810.01943) or [modified to reduce bias](https://papers.nips.cc/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html). #pro
             - <De-biasing doesn't work>: Model [de-biasing doesn't fully eliminate biases](https://arxiv.org/abs/1903.03862). #con
-            - <False objectivity>
         - <Algorithmic fairness>
-    + <False objectivity>
+    + <Minority exclusion>: Cultural contexts that are smaller are more difficult to mine for training data, resulting in [exclusion from machine learning systems](https://arxiv.org/abs/2003.11529). #con
+        _ <Ambivalence of minority representation>: [Minority representation can support discrimination](https://digitaltalkingdrum.com/2017/08/15/against-black-inclusion-in-facial-recognition/), and is therefore not always desirable. #ambiv
+
+A related risk is that of **false objectivity.** When a decision is made by a machine learning system, it can falsely appear to be objectively correct, as opposed to the product of falliable human judgment. This mistake overlooks the the role of human bias in the production of training data, the design of the algorithm, and the goals of the system.
+
+<Serious risks>
+    + <False objectivity>: The use of machine learning systems can create [a false sense of objectivity](https://link.springer.com/article/10.1007/s13347-017-0273-3) by [obscuring](https://arxiv.org/abs/2002.05193) or [inappropriately bracketing](https://dl.acm.org/doi/abs/10.1145/3351095.3372840) their limitations. #con
+        +> <Bias reproduction>
+        +> <Minority exclusion>
+        -> <De-biasing>
+
+Machine learning systems are **difficult to understand.** Using such systems in applications such as medicine, insurance, etc., therefore poses a serious problem, as people have the right to the explanation of decisions that affect their lives. For this reason, explainable and interpretable machine learning systems are an active research area. One objection to this argument is that human explanations are also opaque, and are therefore no better. However, we may trust human judgments because they are underwritten by webs of social sanction and support, whereas machine learning systems are not.
+
+<Serious risks>
     + <Black box>: People enjoy a [right to explanation of decisions that affect them](https://arxiv.org/abs/1606.08813), but it is [difficult to understand why machine learning systems make any given decision](https://arxiv.org/abs/1702.08608). #con
         _ <Human reasoning is also a black box>: It is also difficult to understand [why humans make any given decision](https://www.annualreviews.org/doi/full/10.1146/annurev.neuro.29.051605.113038). #ambiv
             _ <Humans are socially culpable>: [Humans are held to account by other humans, while machine learning systems cannot be.](https://mitpress.mit.edu/books/promise-artificial-intelligence) #ambiv
         - <Explainability>: Improving the [explainability](https://distill.pub/2018/building-blocks/) and [interpretability](https://arxiv.org/abs/1702.08608) of machine learning systems is an active research area. #pro
-    _ <Precautionary principle>: The risks posed by machine learning systems can be mitigated by following [the precautionary principle](https://ehp.niehs.nih.gov/doi/abs/10.1289/ehp.01109871). #ambiv
-        _ <Costs of precaution>: The precautionary princple [limits innovation and economic growth](https://itif.org/publications/2019/02/04/ten-ways-precautionary-principle-undermines-progress-artificial-intelligence) #pro
-    + <Surveillance state>: Machine learning systems facilitate the overreach and abuse of [government](https://www.nature.com/articles/d41586-020-03187-3) and [corporate](https://link.springer.com/article/10.1057/jit.2015.5) surveillance. #con
-        + <Concentration of power>
-        + <Behavioral control>
-    + <Behavioral control>: Owners of machine learning systems will [incentivize and coerce](https://journals.sagepub.com/doi/abs/10.1177/1527476418796632) people to shape their behavior to provide data for and fit the constraints of machine learning systems. #con
-        + <Dependence on human labor>
-    + <Concentration of power>: The expense of machine learning [concentrates power in large, wealthy organizations](https://arxiv.org/abs/2010.15581). #con
-        + <Behavioral control>
-        + <Energy inefficient>
-        + <Data hungry>
-    + <Lack of consent>: Human-generated training data are often [collected and used without consent](https://journals.sagepub.com/doi/full/10.1177/2053951716650211). #con
-        + <Data hungry>
-        + <Behavioral control>
-        + <Dependence on human labor>
-    + <Minority exclusion>: Cultural contexts that are smaller are more difficult to mine for training data, resulting in [exclusion from machine learning systems](https://arxiv.org/abs/2003.11529). #con
-        + <False objectivity>
-        + <Data hungry>
-        _ <Ambivalence of minority representation>: [Minority representation can support discrimination](https://digitaltalkingdrum.com/2017/08/15/against-black-inclusion-in-facial-recognition/), and is therefore not always desirable. #ambiv
-    + <Economic disruption>: [People could be pushed out of their jobs by machine learning systems](https://www.sciencedirect.com/science/article/pii/S0040162516302244) causing [increasing in inequaltiy](https://www.aeaweb.org/articles?id=10.1257/pandp.20201063). #con
+
+The success of machine learning systems may pose **economic risks.** The flipside of labor-saving automation is job loss, which could exacerbate the concentration of power in organizations that can afford machine learning systems. Historically, however, job loss due to automation has been offset by the creation of new jobs. For machine learning, these jobs would likely involve the creation and maintence of large training datasets. However, such labor is often low-status and underpaid, and we may not want to create such jobs if they pointless and unfulfilling.
+
+<Serious risks>
+    + <Economic disruption>: [People could be pushed out of their jobs by machine learning systems](https://www.sciencedirect.com/science/article/pii/S0040162516302244) causing [increasing inequaltiy](https://www.aeaweb.org/articles?id=10.1257/pandp.20201063). #con
         + <Labor-saving automation>
         - <Job creation>: Historically, [automation has resulted in job creation](https://www.aeaweb.org/articles?id=10.1257%2Fjep.29.3.3) that offsets job loss. #pro
             + <Dependence on human labor>: The production and labeling of training data depends on [(often invisible) human labor](https://ghostwork.info/). #con
-                + <Data hungry>
             _ <Bullshit jobs>: We should not want to create more [bullshit jobs](https://www.simonandschuster.com/books/Bullshit-Jobs/David-Graeber/9781501143335). #ambiv
-    + <Energy inefficient>: Training large machine learning models is [energy inefficient](https://arxiv.org/abs/1906.02243) and contributes to climate change. #con
+        +> <Concentration of power>
+
+Machine learning systems require **huge amounts of data,** and a number of risks lie downstream from this technological limitation. These risks include many of those discussed above, as well as the risk of energy inefficient machine learning systems exacerbating climate change.
+
+<Data hungry>
+    +> <Energy inefficient>: Training large machine learning models is [energy inefficient](https://arxiv.org/abs/1906.02243) and contributes to climate change. #con
+        +> <Serious risks>
+    +> <Dependence on human labor>
+    +> <Minority exclusion>
+    +> <Lack of consent>
+    +> <Concentration of power>
+
+If artificially intelligent agents are smarter than humans but do not share human goals, they may pose an **existential risk.** However,superintelligence of this type may be conceptually or physically implausible, or the threat may be overstated. Such safety risks are an area of active research.
+
+<Serious risks>
     + <Superintelligence is an existential threat>: A sufficiently intelligent machine may [destroy humanity](http://jetpress.org/volume9/risks.html) #con
         - <Safety research>: [Safety risks posed by intelligent machines](https://arxiv.org/abs/1606.06565) are an active research area. #pro
         - <Implausibility of superintelligence>: "Superintelligence" is [implausible](http://kryten.mm.rpi.edu/SB_singularity_math_final.pdf) or [not a threat](https://jetpress.org/v25.2/goertzel.pdf). #ambiv
 
-**Acknowledgements.** Thanks to Ted Underwood, Kevin Lin, Chris Beiser, Juan Ortiz Freuler, and Twitter user @muranava for helpful feedback.
+**Below, we consider proposed means of mitigating these risks.**
+
+The risks of machine learning systems may be mitigated by following **the precautionary principle:** take care to limit potential risks even if the magnitude of those risks is unknown. Critics of this approach argue that the precautionary principle stifles innovation.
+
+<Serious risks>
+    _ <Precautionary principle>: The risks posed by machine learning systems can be mitigated by following [the precautionary principle](https://ehp.niehs.nih.gov/doi/abs/10.1289/ehp.01109871). #ambiv
+        _ <Costs of precaution>: The precautionary princple [limits innovation and economic growth](https://itif.org/publications/2019/02/04/ten-ways-precautionary-principle-undermines-progress-artificial-intelligence) #pro
+
+**Acknowledgements.** Thanks to Ted Underwood, Kevin Lin, Chris Beiser, Jackie Ess, Juan Ortiz Freuler, and Twitter user @muranava for helpful feedback.
